@@ -18436,6 +18436,15 @@ video {
   transition-delay: 1000ms;
 }
 
+.ap-footer svg {
+  display: inline;
+}
+
+.ap-suggestion-icon svg {
+  display: inline-block;
+  margin-top: -0.75rem;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
