@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Log;
 use Zttp\Zttp;
 
 class WeatherController extends Controller
@@ -16,14 +15,20 @@ class WeatherController extends Controller
      */
     public function __invoke(Request $request)
     {
-        $apiKey = config('services.openweathermap.key');
-        $lat = $request->lat;
-        $lon = $request->lon;
+        $apiKey = config('services.weatherbit.key');
 
-        $response = Zttp::get("https://api.openweathermap.org/data/2.5/onecall?lat=$lat&lon=$lon&appid=$apiKey");
+        // $lat = $request->lat;
+        // $lon = $request->lon;
+        $city = $request->city;
 
-        Log::channel('debug')->info('Weather Response', ['date' => $response->json(JSON_PRETTY_PRINT)]);
+        // $weatherstackApi = "http://api.weatherstack.com/current?access_key=$apiKey&query=$city";
+        // $openweathermapApi = "https://api.openweathermap.org/data/2.5/onecall?lat=$lat&lon=$lon&appid=$apiKey";
+        $weatherbitApi = "http://api.weatherbit.io/v2.0/current?key=$apiKey&city=$city";
 
-        return $response->json();
+        $response = Zttp::get($weatherbitApi);
+
+        $data = $response->json()['data'][0];
+
+        return response()->json($data);
     }
 }
