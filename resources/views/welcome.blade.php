@@ -11,10 +11,11 @@
     <script src="/js/app.js" defer></script>
 </head>
 <body class="bg-gray-200">
+    <h1 class="text-xl mt-1 text-gray-900 text-center">Alee Weather App</h1>
     <div id="app" class="flex justify-center pt-4">
         <weather-app></weather-app>
     </div>
-    <footer class='w-full flex justify-center items-center border-t border-grey-100 p-4'>
+    <footer class='w-full flex justify-center items-center border-t border-grey-100 py-2 fixed bottom-0'>
         <span>Developed by <a class="hover:text-green-500" href="https://github.com/aliadhillon">Ali A. Dhillon</a>.</span>
         <a class="hover:text-blue-500" href="https://github.com/aliadhillon/weather-app">
             <span class="ml-2">Source Code <img class="w-4 h-4 inline" src="/img/github.png" alt="Github Logo"></span>
