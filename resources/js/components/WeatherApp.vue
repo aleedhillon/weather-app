@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white mb-8">
+  <div class="text-white mb-2">
     <div class="places-input text-gray-800">
       <input type="search" id="address" class="form-control" placeholder="Where are we going?" />
       <!-- <p>
