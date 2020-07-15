@@ -17,7 +17,7 @@
     <footer class='w-full flex justify-center items-center border-t border-grey-100 p-4'>
         <span>Developed by <a class="hover:text-green-500" href="https://github.com/aliadhillon">Ali A. Dhillon</a>.</span>
         <a class="hover:text-blue-500" href="https://github.com/aliadhillon/weather-app">
-            <span class="ml-2">Source Code <img class="w-4 h-4 inline" src="/img/github.png" alt="Github logo"></span>
+            <span class="ml-2">Source Code <img class="w-4 h-4 inline" src="/img/github.png" alt="Github Logo"></span>
         </a>
     </footer>
 </body>
