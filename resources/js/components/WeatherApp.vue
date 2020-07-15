@@ -1,13 +1,13 @@
 <template>
-  <div class="text-white mb-2">
+  <div class="text-white mb-1">
     <div class="places-input text-gray-800">
-      <input type="search" id="address" class="form-control" placeholder="Where are we going?" />
+      <input type="search" id="address" class="form-control" placeholder="Search your city for weather" />
       <!-- <p>
         Selected:
         <strong id="address-value">none</strong>
       </p>-->
     </div>
-    <div class="weather-container w-128 mt-4 max-w-lg overflow-hidden shadow-lg rounded-lg">
+    <div class="weather-container w-128 mt-2 max-w-lg overflow-hidden shadow-lg rounded-lg">
       <div class="current-weather flex items-center justify-between px-6 py-8 bg-gray-900">
         <div class="flex items-center">
           <div>
