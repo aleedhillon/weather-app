@@ -9,8 +9,8 @@ Check the live app at [Alee Weather App](http://alee-weather-app.herokuapp.com/)
 
 ## How to use
 
-- Clone the repository with __git clone https://github.com/aliadhillon/weather-app.git__
-- Copy __.env.example__ file to __.env__
+- Clone the repository with __`git clone https://github.com/aliadhillon/weather-app.git`__
+- Copy __`.env.example`__ file to __`.env`__
 - Run __composer install__
 - Run __php artisan key:generate --ansi__
 - Run __npm install && npm run dev__
