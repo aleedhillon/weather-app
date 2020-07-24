@@ -2,7 +2,9 @@
 
 ## Details
 
-This is a Weather cheking app which shows current weather and weather forecast for the selected city and is developed using Laravel, VueJS, Tailwind-CSS and Algolia Places.
+This is a weather cheking app which shows current weather and weather forecasts for the selected city and is developed using Laravel, VueJS, Tailwind-CSS and Algolia Places.
+
+Check the live app at [Alee Weather App](http://alee-weather-app.herokuapp.com/)
 
 ## How to use
 
