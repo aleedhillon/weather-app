@@ -7,7 +7,7 @@ This is a weather cheking app which shows current weather and weather forecasts 
 ### Live app
 Check the live app at [Alee Weather App](http://alee-weather-app.herokuapp.com/)
 
-## How to use
+## How to install
 
 - Clone the repository with __`git clone https://github.com/aliadhillon/weather-app.git`__
 - Copy __`.env.example`__ file to __`.env`__
