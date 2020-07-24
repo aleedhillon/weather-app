@@ -11,9 +11,9 @@ Check the live app at [Alee Weather App](http://alee-weather-app.herokuapp.com/)
 
 - Clone the repository with __`git clone https://github.com/aliadhillon/weather-app.git`__
 - Copy __`.env.example`__ file to __`.env`__
-- Run __composer install__
-- Run __php artisan key:generate --ansi__
-- Run __npm install && npm run dev__
+- Run __`composer install`__
+- Run __`php artisan key:generate --ansi`__
+- Run __`npm install && npm run dev`__
 - Create free account on [Weatherbit](https://www.weatherbit.io/) and get the API Key
-  and set it in the __.env__ file as __WEATHER_BIT_API_KEY__
-- That's it: launch with __php artisan serve__ 
+  and set it in the __`.env`__ file as __`WEATHER_BIT_API_KEY`__
+- That's it: launch with __`php artisan serve`__ 
