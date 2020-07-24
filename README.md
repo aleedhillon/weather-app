@@ -2,15 +2,18 @@
 
 ## Details
 
-This Weather cheking app which is developed using Laravel, VueJS, Tailwind-CSS and Algolia Places.
+This is a weather cheking app which shows current weather and weather forecasts for the selected city and is developed using Laravel, VueJS, Tailwind-CSS and Algolia Places.
 
-## How to use
+### Live app
+Check the live app at [Alee Weather App](http://alee-weather-app.herokuapp.com/)
 
-- Clone the repository with __git clone__
-- Copy __.env.example__ file to __.env__ and edit database credentials there
-- Run __composer install__
-- Run __php artisan key:generate__
-- Run __npm install && npm run dev__
+## How to install
+
+- Clone the repository with __`git clone https://github.com/aliadhillon/weather-app.git`__
+- Copy __`.env.example`__ file to __`.env`__
+- Run __`composer install`__
+- Run __`php artisan key:generate --ansi`__
+- Run __`npm install && npm run dev`__
 - Create free account on [Weatherbit](https://www.weatherbit.io/) and get the API Key
-  and set it in the __.env__ file as __WEATHER_BIT_API_KEY__
-- That's it: launch with __php artisan serve__ 
+  and set it in the __`.env`__ file as __`WEATHER_BIT_API_KEY`__
+- That's it: launch with __`php artisan serve`__ 
